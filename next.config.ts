@@ -17,7 +17,6 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
     ],
-    ],
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
